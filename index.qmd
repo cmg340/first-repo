@@ -1,0 +1,17 @@
+---
+title: "week_5_project"
+format:
+  html:
+   self-contained: true
+
+---
+if we are ever doing quarto documents in html always select as above^ self contained
+## Practicing with git
+
+```{r}
+library(tidyverse)
+
+ggplot(data = storms) + 
+  geom_point(mapping = aes(x = pressure, y = wind))
+```
+
