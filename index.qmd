@@ -12,6 +12,7 @@ if we are ever doing quarto documents in html always select as above^ self conta
 library(tidyverse)
 
 ggplot(data = storms) + 
-  geom_point(mapping = aes(x = pressure, y = wind))
+  geom_point(mapping = aes(x = pressure, y = wind, color = category))+
+  theme_minimal()
 ```
 
