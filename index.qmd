@@ -5,7 +5,8 @@ format:
    self-contained: true
 
 ---
-if we are ever doing quarto documents in html always select as above^ self contained
+if we are ever doing quarto documents in html always select as above^ self contained (the format and spacing for this is also very important) 
+
 ## Practicing with git
 
 ```{r}
